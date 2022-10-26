@@ -23,10 +23,7 @@ Follow course to know more about Docker.
 - Building entire systems with Docker
 
 ## Local setup
-Follow the instructions to get the project up and running for local development and testing purposes.
-- Install python 3: https://www.python.org/downloads/. 
-- Configure the IDE Interpreter to use Python 3 and setup the run configuration: https://www.jetbrains.com/help/pycharm/creating-and-editing-run-debug-configurations.html?keymap=secondary_macos.
-- Ideally create a dedicated virtual environment for the project and use it as the project interpreter in the IDE.
+- Install Docker https://docs.docker.com/get-docker/
 
 ## License
 This project is licensed under the terms of the MIT License.
