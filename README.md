@@ -30,6 +30,13 @@ source ./exercise_files/reformat.sh
 # check the variable was set correctly 
 echo $FORMAT 
 ```
+- Run the following command to make sure the Docker installation was good:
+```bash
+docker run hello-world
+# should print some info about Docker, including something like: 
+# "Hello from Docker!
+# This message shows that your installation appears to be working correctly." 
+```
 
 ## License
 This project is licensed under the terms of the MIT License.
