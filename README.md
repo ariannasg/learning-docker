@@ -24,6 +24,12 @@ Follow course to know more about Docker.
 
 ## Local setup
 - Install Docker https://docs.docker.com/get-docker/
+- Run the following script to add an environment variable that will format nicely the output of the Docker commands:
+```bash
+source ./exercise_files/reformat.sh
+# check the variable was set correctly 
+echo $FORMAT 
+```
 
 ## License
 This project is licensed under the terms of the MIT License.
