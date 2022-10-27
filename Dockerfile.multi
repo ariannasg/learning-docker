@@ -1,0 +1,15 @@
+# from an ubuntu image
+FROM ubuntu:16.04
+
+# update all packages
+RUN apt-get -y update
+
+# install curl
+RUN apt-get -y install curl
+
+# pipe the number of words and the number of characters to a build artifact called google-size
+# basically just pre-calculates at build time how big is the google page in characters
+RUN curl https://google.com | wc > google-size
+
+# display that information
+ENTRYPOINT echo google is this big; cat google-size

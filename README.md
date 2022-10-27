@@ -27,7 +27,7 @@ Follow course to know more about Docker.
 - Run the following script to add an environment variable that will format nicely the output of the Docker commands:
 ```bash
 source ./exercise_files/reformat.sh
-# check the variable was set correctly 
+### check the variable was set correctly 
 echo $FORMAT 
 ```
 - Run the following command to make sure the Docker installation was good:
